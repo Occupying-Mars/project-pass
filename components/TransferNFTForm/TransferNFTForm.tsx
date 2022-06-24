@@ -72,7 +72,6 @@ const TransferNFTForm = (props: TransferNFTFormProps): JSX.Element | null => {
         />
         <Button
           type="submit"
-          variant="highlight"
           width={{xs: 'full', md: 'max'}}
           disabled={submitting}
           loading={submitting}
