@@ -123,7 +123,6 @@ const CreateEntryForm = (): ReactElement => {
             required
           />
           <Button
-            variant="highlight"
             width={{xs: 'full', md: 'max'}}
             type="submit"
             data-testid="submit-btn"
