@@ -76,9 +76,6 @@ const PostDetails = (props: ViewPostProps): JSX.Element | null => {
           <Box paddingY="12">
             <Text>{transaction.data.body}</Text>
           </Box>
-          <Box paddingY="12">
-            <Text>{transaction.data.gitrepo}</Text>
-          </Box>
           <a
             href={`${process.env.NEXT_PUBLIC_ARWEAVE_BLOCK_EXPLORER_URL}tx/${transaction.id}`}
             target="_blank"
